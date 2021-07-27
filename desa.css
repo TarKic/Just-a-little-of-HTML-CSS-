@@ -11,6 +11,7 @@ body {
   margin-top: 150px;
   border-radius: 5px;
   box-shadow: 4px 4px #c2bfcd;
+  transition: transform 0.3s;
 }
 
 .question {
@@ -55,6 +56,7 @@ button {
   cursor: pointer;
   background-color: #fff;
   border: 0px solid #fff;
+  transition: background-color 0.5s;
 }
 
 .emoji {
@@ -62,4 +64,25 @@ button {
   margin: auto;
   margin-left: 190px;
   padding-bottom: 10px;
+}
+
+.buttonsend:active {
+  background-color: #391986;
+}
+
+button:hover {
+  border: 1px solid #969494;
+}
+
+button:active {
+  background-color: #969494;
+}
+
+button:focus {
+  background-color: #391986;
+  color: #fff;
+}
+
+.container:hover {
+  transform: scale(1.2);
 }
