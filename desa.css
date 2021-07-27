@@ -47,6 +47,8 @@ body {
   border: 0px solid #fff;
   margin: auto;
   padding: 10px;
+  animation-name: Box;
+  animation-duration: 3s;
 }
 
 button {
