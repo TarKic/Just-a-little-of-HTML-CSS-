@@ -1,0 +1,37 @@
+body {
+  background-color: #1e1f33;
+}
+
+.main-container {
+  width: 1000px;
+  margin: auto;
+}
+.card1 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  box-shadow: 8px 8px #11121f;
+  border: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.buttonsend {
+  background-color: #e84172;
+  display: flex;
+  cursor: pointer;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px solid #fff;
+}
+
+div {
+  justify-content: center;
+  width: 150px;
+  height: 90px;
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+}
